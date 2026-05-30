@@ -6,9 +6,7 @@ import {
   UNIT_TYPES,
 } from "@/lib/mockData";
 
-const HERO_IMAGE = 
-  "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=2400&q=80";
-
+const HERO_IMAGE = "/images/darcey-beau-KTivTunp_lw-unsplash.jpg";
 export default function Dashboard() {
   const totals = {
     projects: PROJECTS.length,
@@ -30,8 +28,8 @@ export default function Dashboard() {
             className="object-cover photo-warm"
           />
           {/* Deep gradient so type stays luxe + legible */}
-          <div className="absolute inset-0 bg-gradient-to-br from-deep/95 via-deep/85 to-deep/60" />
-          <div className="absolute inset-0 bg-gradient-to-t from-deep/95 via-transparent to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-br from-deep via-deep/70 to-deep/40" />
+          <div className="absolute inset-0 bg-gradient-to-t from-deep via-transparent to-transparent" />
         </div>
 
         <div className="mx-auto max-w-7xl px-6 pt-24 pb-32 md:pt-32 md:pb-40">
